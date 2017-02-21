@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Local Weather</title>
+    <link rel='stylesheet prefetch' href='http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css'>
+    <link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css'>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+<section class="container-fluid">
+    <h2 class="topic-sec">Weather App</h2>
+    <div class="well">
+        <p id="weather"></p>
+        <form action="/choose-unit">
+            <label>
+                <input type="radio" checked name="temperature-units" id="c"> Celsius</label>
+            <label>
+                <input type="radio" name="temperature-units" id="f"> Farenheit</label>
+        </form>
+    </div>
+
+</section>
+<footer>
+    <p>© WJ</p>
+    <div class="github"><a href="https://github.com/wjaron/weatherapp" target="_blank" class="fa fa-github"><span class="label">GitHub</span></a></div>
+</footer>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+<script src="js.js"></script>
+
+</body>
+
+</html>
